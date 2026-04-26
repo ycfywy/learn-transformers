@@ -1,14 +1,10 @@
 import torch
-from lab.models import MultiHeadAttention
-
 
 def main():
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"🚀 正在本地设备运行: {device}")
 
     # 初始化模型
-    model = MultiHeadAttention(d_model=512, num_heads=8).to(device)
-
     # # 模拟输入 (Batch, Seq_len, Dim)
     # x = torch.randn(2, 16, 512).to(device)
 
