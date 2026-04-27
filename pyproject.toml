@@ -7,6 +7,8 @@ dependencies = [
     "transformers",
     "accelerate",
     "python-dotenv>=1.2.2",
+    "datasets>=4.8.4",
+    "torchvision>=0.26.0",
 ]
 
 [project.scripts]
